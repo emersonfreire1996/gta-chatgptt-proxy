@@ -5,6 +5,17 @@ This repo contains:
 - **`chatgpt.js`** + **`vercel.json`** — pre-existing Vercel function that proxies requests to the OpenAI Chat Completions API.
 - **`moneyflow/`** — full-stack implementation of the **MoneyFlow** design (Midnight Wealth edition).
 - **`trajex/`** — preserved prototype of the **Trajex** fleet-management design (HTML + JSX via Babel-standalone).
+- **[`moneyflow-trajex.zip`](./moneyflow-trajex.zip)** — both projects + this README, ready to download and unzip.
+
+### Download
+
+Get the full bundle from `moneyflow-trajex.zip` at the repo root (~660 KB, 76 files). Direct link on GitHub:
+
+```
+https://github.com/emersonfreire1996/gta-chatgptt-proxy/raw/claude/implement-design-system-xn3eW/moneyflow-trajex.zip
+```
+
+After unzipping you get `moneyflow/`, `trajex/` and `README.md`. Run `cd moneyflow && npm install && npm run seed && npm run dev`.
 
 Both design directions come from a Claude Design (`claude.ai/design`) handoff bundle. The chat session ended on MoneyFlow, so it is the most fully-realized direction.
 
