@@ -1,0 +1,516 @@
+{
+  "users": [
+    {
+      "id": "demo-user-id",
+      "email": "demo@moneyflow.io",
+      "name": "Démo MoneyFlow",
+      "plan": "free",
+      "passwordHash": "$2a$10$wH8QnYFzFqV9qN9J7eQK5OeSxqIYwYkKzL6tF5gZ.3WZ0VcEJN.j6",
+      "createdAt": "2026-04-25T10:23:39.310Z"
+    }
+  ],
+  "gains": [
+    {
+      "id": "moe6ywxa4z6c88",
+      "userId": "demo-user-id",
+      "source": "freelance",
+      "amount": 376.96,
+      "date": "2026-03-31",
+      "note": "",
+      "createdAt": "2026-03-31T22:00:00.000Z"
+    },
+    {
+      "id": "moe6ywxaprpy9v",
+      "userId": "demo-user-id",
+      "source": "affiliation",
+      "amount": 48.72,
+      "date": "2026-04-11",
+      "note": "",
+      "createdAt": "2026-04-11T22:00:00.000Z"
+    },
+    {
+      "id": "moe6ywxaek5k2a",
+      "userId": "demo-user-id",
+      "source": "freelance",
+      "amount": 139.4,
+      "date": "2026-03-12",
+      "note": "",
+      "createdAt": "2026-03-12T23:00:00.000Z"
+    },
+    {
+      "id": "moe6ywxamnlkax",
+      "userId": "demo-user-id",
+      "source": "coaching",
+      "amount": 155.32,
+      "date": "2026-04-05",
+      "note": "",
+      "createdAt": "2026-04-05T22:00:00.000Z"
+    },
+    {
+      "id": "moe6ywxa6e6cj7",
+      "userId": "demo-user-id",
+      "source": "coaching",
+      "amount": 159.18,
+      "date": "2026-03-28",
+      "note": "",
+      "createdAt": "2026-03-28T23:00:00.000Z"
+    },
+    {
+      "id": "moe6ywxa2jnq33",
+      "userId": "demo-user-id",
+      "source": "contenu",
+      "amount": 118.48,
+      "date": "2026-03-23",
+      "note": "",
+      "createdAt": "2026-03-23T23:00:00.000Z"
+    },
+    {
+      "id": "moe6ywxagrobfa",
+      "userId": "demo-user-id",
+      "source": "affiliation",
+      "amount": 72.41,
+      "date": "2026-02-25",
+      "note": "",
+      "createdAt": "2026-02-25T23:00:00.000Z"
+    },
+    {
+      "id": "moe6ywxax7t3hk",
+      "userId": "demo-user-id",
+      "source": "crypto",
+      "amount": 95.51,
+      "date": "2026-04-13",
+      "note": "",
+      "createdAt": "2026-04-13T22:00:00.000Z"
+    },
+    {
+      "id": "moe6ywxajbozeh",
+      "userId": "demo-user-id",
+      "source": "affiliation",
+      "amount": 124.13,
+      "date": "2026-03-20",
+      "note": "",
+      "createdAt": "2026-03-20T23:00:00.000Z"
+    },
+    {
+      "id": "moe6ywxawpuvg1",
+      "userId": "demo-user-id",
+      "source": "freelance",
+      "amount": 805.92,
+      "date": "2026-03-20",
+      "note": "",
+      "createdAt": "2026-03-20T23:00:00.000Z"
+    },
+    {
+      "id": "moe6ywxaonheto",
+      "userId": "demo-user-id",
+      "source": "crypto",
+      "amount": 165.91,
+      "date": "2026-03-17",
+      "note": "",
+      "createdAt": "2026-03-17T23:00:00.000Z"
+    },
+    {
+      "id": "moe6ywxapnk5pl",
+      "userId": "demo-user-id",
+      "source": "crypto",
+      "amount": 250.31,
+      "date": "2026-04-18",
+      "note": "",
+      "createdAt": "2026-04-18T22:00:00.000Z"
+    },
+    {
+      "id": "moe6ywxapmacnt",
+      "userId": "demo-user-id",
+      "source": "contenu",
+      "amount": 75.8,
+      "date": "2026-03-28",
+      "note": "",
+      "createdAt": "2026-03-28T23:00:00.000Z"
+    },
+    {
+      "id": "moe6ywxacmnho5",
+      "userId": "demo-user-id",
+      "source": "affiliation",
+      "amount": 56.53,
+      "date": "2026-04-21",
+      "note": "",
+      "createdAt": "2026-04-21T22:00:00.000Z"
+    },
+    {
+      "id": "moe6ywxawibhql",
+      "userId": "demo-user-id",
+      "source": "contenu",
+      "amount": 66.5,
+      "date": "2026-04-02",
+      "note": "",
+      "createdAt": "2026-04-02T22:00:00.000Z"
+    },
+    {
+      "id": "moe6ywxa0efm3v",
+      "userId": "demo-user-id",
+      "source": "coaching",
+      "amount": 259.37,
+      "date": "2026-03-08",
+      "note": "",
+      "createdAt": "2026-03-08T23:00:00.000Z"
+    },
+    {
+      "id": "moe6ywxauv0grh",
+      "userId": "demo-user-id",
+      "source": "freelance",
+      "amount": 639.37,
+      "date": "2026-03-12",
+      "note": "",
+      "createdAt": "2026-03-12T23:00:00.000Z"
+    },
+    {
+      "id": "moe6ywxa0jymql",
+      "userId": "demo-user-id",
+      "source": "affiliation",
+      "amount": 28.58,
+      "date": "2026-03-19",
+      "note": "",
+      "createdAt": "2026-03-19T23:00:00.000Z"
+    },
+    {
+      "id": "moe6ywxa8gdvvj",
+      "userId": "demo-user-id",
+      "source": "coaching",
+      "amount": 108.72,
+      "date": "2026-03-05",
+      "note": "",
+      "createdAt": "2026-03-05T23:00:00.000Z"
+    },
+    {
+      "id": "moe6ywxaw2noev",
+      "userId": "demo-user-id",
+      "source": "coaching",
+      "amount": 128.13,
+      "date": "2026-03-04",
+      "note": "",
+      "createdAt": "2026-03-04T23:00:00.000Z"
+    },
+    {
+      "id": "moe6ywxavnk21j",
+      "userId": "demo-user-id",
+      "source": "contenu",
+      "amount": 157.79,
+      "date": "2026-04-20",
+      "note": "",
+      "createdAt": "2026-04-20T22:00:00.000Z"
+    },
+    {
+      "id": "moe6ywxauaaeek",
+      "userId": "demo-user-id",
+      "source": "crypto",
+      "amount": 47.47,
+      "date": "2026-03-02",
+      "note": "",
+      "createdAt": "2026-03-02T23:00:00.000Z"
+    },
+    {
+      "id": "moe6ywxajmv9v0",
+      "userId": "demo-user-id",
+      "source": "freelance",
+      "amount": 717.5,
+      "date": "2026-03-12",
+      "note": "",
+      "createdAt": "2026-03-12T23:00:00.000Z"
+    },
+    {
+      "id": "moe6ywxa6pyxpf",
+      "userId": "demo-user-id",
+      "source": "coaching",
+      "amount": 162.81,
+      "date": "2026-04-24",
+      "note": "",
+      "createdAt": "2026-04-24T22:00:00.000Z"
+    },
+    {
+      "id": "moe6ywxapi5bng",
+      "userId": "demo-user-id",
+      "source": "coaching",
+      "amount": 347.41,
+      "date": "2026-04-15",
+      "note": "",
+      "createdAt": "2026-04-15T22:00:00.000Z"
+    },
+    {
+      "id": "moe6ywxakt1adz",
+      "userId": "demo-user-id",
+      "source": "crypto",
+      "amount": 290.41,
+      "date": "2026-03-21",
+      "note": "",
+      "createdAt": "2026-03-21T23:00:00.000Z"
+    },
+    {
+      "id": "moe6ywxa805qbn",
+      "userId": "demo-user-id",
+      "source": "coaching",
+      "amount": 101.05,
+      "date": "2026-03-14",
+      "note": "",
+      "createdAt": "2026-03-14T23:00:00.000Z"
+    },
+    {
+      "id": "moe6ywxa5fjh4c",
+      "userId": "demo-user-id",
+      "source": "affiliation",
+      "amount": 106.14,
+      "date": "2026-03-01",
+      "note": "",
+      "createdAt": "2026-03-01T23:00:00.000Z"
+    },
+    {
+      "id": "moe6ywxamb7qfz",
+      "userId": "demo-user-id",
+      "source": "freelance",
+      "amount": 734.79,
+      "date": "2026-03-16",
+      "note": "",
+      "createdAt": "2026-03-16T23:00:00.000Z"
+    },
+    {
+      "id": "moe6ywxa2b2x63",
+      "userId": "demo-user-id",
+      "source": "crypto",
+      "amount": 118.54,
+      "date": "2026-04-04",
+      "note": "",
+      "createdAt": "2026-04-04T22:00:00.000Z"
+    },
+    {
+      "id": "moe6ywxaiim3lt",
+      "userId": "demo-user-id",
+      "source": "coaching",
+      "amount": 239.43,
+      "date": "2026-04-01",
+      "note": "",
+      "createdAt": "2026-04-01T22:00:00.000Z"
+    },
+    {
+      "id": "moe6ywxauqbe54",
+      "userId": "demo-user-id",
+      "source": "freelance",
+      "amount": 629.38,
+      "date": "2026-04-12",
+      "note": "",
+      "createdAt": "2026-04-12T22:00:00.000Z"
+    },
+    {
+      "id": "moe6ywxaad5nuv",
+      "userId": "demo-user-id",
+      "source": "contenu",
+      "amount": 96.61,
+      "date": "2026-04-11",
+      "note": "",
+      "createdAt": "2026-04-11T22:00:00.000Z"
+    },
+    {
+      "id": "moe6ywxagkqmxb",
+      "userId": "demo-user-id",
+      "source": "contenu",
+      "amount": 205.04,
+      "date": "2026-03-05",
+      "note": "",
+      "createdAt": "2026-03-05T23:00:00.000Z"
+    },
+    {
+      "id": "moe6ywxa8dpm3i",
+      "userId": "demo-user-id",
+      "source": "freelance",
+      "amount": 691.25,
+      "date": "2026-03-26",
+      "note": "",
+      "createdAt": "2026-03-26T23:00:00.000Z"
+    },
+    {
+      "id": "moe6ywxa21qnkj",
+      "userId": "demo-user-id",
+      "source": "freelance",
+      "amount": 384.05,
+      "date": "2026-03-21",
+      "note": "",
+      "createdAt": "2026-03-21T23:00:00.000Z"
+    },
+    {
+      "id": "moe6ywxagdsiy6",
+      "userId": "demo-user-id",
+      "source": "coaching",
+      "amount": 104.79,
+      "date": "2026-03-24",
+      "note": "",
+      "createdAt": "2026-03-24T23:00:00.000Z"
+    },
+    {
+      "id": "moe6ywxam6fzk7",
+      "userId": "demo-user-id",
+      "source": "affiliation",
+      "amount": 72.17,
+      "date": "2026-03-10",
+      "note": "",
+      "createdAt": "2026-03-10T23:00:00.000Z"
+    },
+    {
+      "id": "moe6ywxa9cim77",
+      "userId": "demo-user-id",
+      "source": "contenu",
+      "amount": 139.15,
+      "date": "2026-03-15",
+      "note": "",
+      "createdAt": "2026-03-15T23:00:00.000Z"
+    },
+    {
+      "id": "moe6ywxawwa5b7",
+      "userId": "demo-user-id",
+      "source": "contenu",
+      "amount": 66.11,
+      "date": "2026-03-14",
+      "note": "",
+      "createdAt": "2026-03-14T23:00:00.000Z"
+    },
+    {
+      "id": "moe6ywxa6dpgp8",
+      "userId": "demo-user-id",
+      "source": "crypto",
+      "amount": 199.08,
+      "date": "2026-04-10",
+      "note": "",
+      "createdAt": "2026-04-10T22:00:00.000Z"
+    },
+    {
+      "id": "moe6ywxa7kq98x",
+      "userId": "demo-user-id",
+      "source": "freelance",
+      "amount": 330.37,
+      "date": "2026-03-11",
+      "note": "",
+      "createdAt": "2026-03-11T23:00:00.000Z"
+    },
+    {
+      "id": "moe6ywxay8sbto",
+      "userId": "demo-user-id",
+      "source": "contenu",
+      "amount": 136.81,
+      "date": "2026-03-20",
+      "note": "",
+      "createdAt": "2026-03-20T23:00:00.000Z"
+    },
+    {
+      "id": "moe6ywxap0n7kk",
+      "userId": "demo-user-id",
+      "source": "affiliation",
+      "amount": 165.45,
+      "date": "2026-04-12",
+      "note": "",
+      "createdAt": "2026-04-12T22:00:00.000Z"
+    },
+    {
+      "id": "moe6ywxam3zojv",
+      "userId": "demo-user-id",
+      "source": "affiliation",
+      "amount": 133.83,
+      "date": "2026-04-22",
+      "note": "",
+      "createdAt": "2026-04-22T22:00:00.000Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "moe6ywxaa33qts",
+      "userId": "demo-user-id",
+      "title": "Livrer landing page client X",
+      "amount": 450,
+      "status": "completed",
+      "priority": "urgent",
+      "dueDate": "2026-04-21",
+      "createdAt": "2026-04-25T10:23:39.310Z",
+      "completedAt": "2026-04-25T10:23:39.310Z"
+    },
+    {
+      "id": "moe6ywxatz508u",
+      "userId": "demo-user-id",
+      "title": "Article sponsorisé blog tech",
+      "amount": 220,
+      "status": "completed",
+      "priority": "normal",
+      "dueDate": "2026-04-23",
+      "createdAt": "2026-04-25T10:23:39.310Z",
+      "completedAt": "2026-04-25T10:23:39.310Z"
+    },
+    {
+      "id": "moe6ywxawgzg30",
+      "userId": "demo-user-id",
+      "title": "Vidéo tutoriel YouTube",
+      "amount": 180,
+      "status": "completed",
+      "priority": "normal",
+      "dueDate": "2026-04-24",
+      "createdAt": "2026-04-25T10:23:39.310Z",
+      "completedAt": "2026-04-25T10:23:39.310Z"
+    },
+    {
+      "id": "moe6ywxa027vuv",
+      "userId": "demo-user-id",
+      "title": "Refonte UI dashboard fintech",
+      "amount": 1200,
+      "status": "in_progress",
+      "priority": "urgent",
+      "dueDate": "2026-04-29",
+      "createdAt": "2026-04-25T10:23:39.310Z"
+    },
+    {
+      "id": "moe6ywxacu9o06",
+      "userId": "demo-user-id",
+      "title": "Coaching 1:1 — Marc D.",
+      "amount": 150,
+      "status": "in_progress",
+      "priority": "normal",
+      "dueDate": "2026-04-26",
+      "createdAt": "2026-04-25T10:23:39.310Z"
+    },
+    {
+      "id": "moe6ywxa6psnj9",
+      "userId": "demo-user-id",
+      "title": "Newsletter mensuelle",
+      "amount": 90,
+      "status": "in_progress",
+      "priority": "low",
+      "dueDate": "2026-05-01",
+      "createdAt": "2026-04-25T10:23:39.310Z"
+    },
+    {
+      "id": "moe6ywxacrzbly",
+      "userId": "demo-user-id",
+      "title": "Audit SEO site e-commerce",
+      "amount": 600,
+      "status": "pending",
+      "priority": "urgent",
+      "dueDate": "2026-05-04",
+      "createdAt": "2026-04-25T10:23:39.310Z"
+    },
+    {
+      "id": "moe6ywxaozzrn7",
+      "userId": "demo-user-id",
+      "title": "Pack icônes Figma",
+      "amount": 350,
+      "status": "pending",
+      "priority": "low",
+      "dueDate": "2026-05-08",
+      "createdAt": "2026-04-25T10:23:39.310Z"
+    }
+  ],
+  "goals": [
+    {
+      "id": "moe6ywxajd0b6z",
+      "userId": "demo-user-id",
+      "title": "Objectif mensuel",
+      "targetAmount": 3000,
+      "period": "monthly",
+      "startDate": "2026-03-31",
+      "endDate": "2026-04-29",
+      "createdAt": "2026-04-25T10:23:39.310Z"
+    }
+  ]
+}

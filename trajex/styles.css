@@ -1,0 +1,74 @@
+/* Trajex — global styles */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap');
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Manrope', 'Inter', -apple-system, system-ui, sans-serif;
+  background: #e5e7eb;
+  color: #0f172a;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button { font-family: inherit; }
+
+/* Trajex glass card */
+.tjx-card {
+  background: rgba(255,255,255,0.72);
+  backdrop-filter: blur(20px) saturate(140%);
+  -webkit-backdrop-filter: blur(20px) saturate(140%);
+  border: 1px solid rgba(255,255,255,0.7);
+  box-shadow:
+    0 1px 0 rgba(255,255,255,0.6) inset,
+    0 8px 24px rgba(15, 23, 42, 0.06),
+    0 1px 2px rgba(15, 23, 42, 0.04);
+}
+
+.tjx-card.dark {
+  background: rgba(20, 25, 35, 0.72);
+  border-color: rgba(255,255,255,0.06);
+  color: #e6eaf2;
+}
+
+/* tabular nums for KPIs */
+.tjx-num {
+  font-feature-settings: "tnum", "lnum";
+  font-variant-numeric: tabular-nums lining-nums;
+}
+
+/* hide scrollbars in cards */
+.tjx-noscroll::-webkit-scrollbar { display: none; }
+.tjx-noscroll { scrollbar-width: none; }
+
+/* subtle divider */
+.tjx-div { height:1px; background:linear-gradient(to right, transparent, rgba(15,23,42,0.08), transparent); }
+
+/* dotted bg for canvases */
+.tjx-dots-bg {
+  background-image: radial-gradient(rgba(15,23,42,0.07) 1px, transparent 1px);
+  background-size: 18px 18px;
+}
+
+/* placeholder image stripes */
+.tjx-stripe {
+  background: repeating-linear-gradient(45deg,
+    rgba(15,23,42,0.04) 0 8px,
+    rgba(15,23,42,0.07) 8px 16px);
+}
+
+/* progress track */
+.tjx-track { height: 6px; background: rgba(15,23,42,0.08); border-radius: 999px; overflow: hidden; }
+.tjx-track > div { height: 100%; border-radius: 999px; transition: width .35s ease; }
+
+/* button reset */
+.tjx-btn { border: none; cursor: pointer; font-family: inherit; }
+
+/* pill */
+.tjx-pill {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 4px 10px; border-radius: 999px; font-size: 11px; font-weight: 600;
+  background: rgba(15,23,42,0.05); color: #334155;
+}

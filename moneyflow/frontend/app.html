@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#07070B" />
+  <title>MoneyFlow — Dashboard</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" />
+  <link rel="stylesheet" href="css/tokens.css" />
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/dashboard.css" />
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar" data-sidebar></aside>
+    <section class="main">
+      <header class="topbar" data-topbar></header>
+      <div data-view-root></div>
+    </section>
+  </div>
+
+  <script type="module">
+    import { auth } from './js/auth.js';
+    import { renderSidebar } from './js/components/sidebar.js';
+    import { renderTopbar } from './js/components/topbar.js';
+    import { toast } from './js/components/toast.js';
+
+    if (!auth.isAuthed()) {
+      location.replace('index.html');
+    }
+
+    const ROUTES = {
+      dashboard: () => import('./js/views/dashboard.js').then(m => m.renderDashboard),
+      gains:     () => import('./js/views/gains.js').then(m => m.renderGains),
+      tasks:     () => import('./js/views/tasks.js').then(m => m.renderTasks),
+      goals:     () => import('./js/views/goals.js').then(m => m.renderGoals),
+      stats:     () => import('./js/views/stats.js').then(m => m.renderStats),
+      settings:  () => import('./js/views/settings.js').then(m => m.renderSettings),
+    };
+
+    const sidebar = document.querySelector('[data-sidebar]');
+    const topbar  = document.querySelector('[data-topbar]');
+    const root    = document.querySelector('[data-view-root]');
+
+    function currentRoute() {
+      const h = (location.hash || '').replace(/^#/, '');
+      return ROUTES[h] ? h : 'dashboard';
+    }
+
+    async function go(route) {
+      if (!ROUTES[route]) route = 'dashboard';
+      if (location.hash !== '#' + route) location.hash = route;
+      renderSidebar(sidebar, route, go);
+      renderTopbar(topbar, route);
+      root.innerHTML = `<div class="view"><div class="skeleton" style="height:120px"></div><div class="skeleton" style="height:240px;margin-top:16px"></div></div>`;
+      try {
+        const render = await ROUTES[route]();
+        await render(root);
+      } catch (err) {
+        console.error(err);
+        toast(err.message || 'Erreur de chargement', 'error');
+        root.innerHTML = `<div class="view"><div class="card empty-state"><h4>Impossible de charger la vue</h4><p>${err.message || ''}</p></div></div>`;
+      }
+    }
+
+    window.addEventListener('hashchange', () => go(currentRoute()));
+    go(currentRoute());
+
+    // Try refreshing the user from server in background (silently fall back to cached)
+    auth.me().catch(() => {});
+  </script>
+</body>
+</html>
